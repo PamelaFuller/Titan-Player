@@ -38,7 +38,7 @@ public class SongTest {
 
     @Test
     public void getTitleTest() {
-        Song testSong = new Song("America", "Johnny Cash");
+        Song testSong = new Song("America", "Johnny Cash", "C:\\myMusic\\America.mp3");
         assertEquals("America", testSong.getTitle());
         
     }
